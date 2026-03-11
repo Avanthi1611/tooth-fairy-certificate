@@ -10,11 +10,6 @@ A high-fidelity web application built with **PHP** and the **GD Graphics Library
 - **Inclusive Logic:** A backend pronoun-mapping system that allows users to select He/She/They preferences, dynamically updating the certificate's syntax.
 - **Font Rendering:** Integration of external Google Fonts via TrueType (.ttf) processing for professional typography.
 
-## Design Assets
-- **Base Template:** [Canva Playful Tooth Fairy Design](https://www.canva.com/templates/EAE9dtzPv_o-blue-yellow-playful-tooth-fairy-certificate/)
-- **Typography:** - **Primary:** *Caveat Brush* (via Google Fonts) - Used for personalized names.
-  - **Secondary:** *Raleway* (via Google Fonts) - Used for official certification text.
-
 ##  Tech Stack
 - **Backend:** PHP 8.x (GD Extension)
 - **Frontend:** HTML5, CSS3 (Bootstrap 5.3)
@@ -35,6 +30,12 @@ A high-fidelity web application built with **PHP** and the **GD Graphics Library
 * **Processing:** The PHP script initializes a GD resource, loads the template, and performs a high-quality resample to target dimensions.
 * **Rendering:** The script calculates the "Bounding Box" for the specific font size to ensure center-alignment.
 * **Output:** The server generates a buffer and triggers an automatic browser download of a unique `.jpg` file.
+---
+##  Credits & Attributions
+This project utilizes third-party design assets to demonstrate real-world integration of graphic templates with server-side logic:
+
+* **Visual Template:** The base certificate design is a modified version of the [Blue and Yellow Playful Tooth Fairy Certificate](https://www.canva.com/templates/EAE9dtzPv_o-blue-yellow-playful-tooth-fairy-certificate/) by @firstyline in Canva.
+* **Typography:** All fonts used are licensed under the [Open Font License (OFL)](https://scripts.sil.org/OFL) and were sourced via Google Fonts.
 ---
 ## Developer Profile
 
