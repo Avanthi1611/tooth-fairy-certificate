@@ -15,10 +15,11 @@ A high-fidelity web application built with **PHP** and the **GD Graphics Library
 - **Typography:** - **Primary:** *Caveat Brush* (via Google Fonts) - Used for personalized names.
   - **Secondary:** *Raleway* (via Google Fonts) - Used for official certification text.
 
-## Tech Stack
+##  Tech Stack
 - **Backend:** PHP 8.x (GD Extension)
 - **Frontend:** HTML5, CSS3 (Bootstrap 5.3)
-- **Deployment:** [PHPSandbox] ([https://phpsandbox.io/e/x/igbpk?layout=EditorPreview&defaultPath=%2F&theme=dark&showExplorer=no&openedFiles=)] )(Integrated with GitHub)
+- **Live Demo:** [Launch Certificate Generator](https://igbpk.ciroue.com)
+- **Deployment:** [PHPSandbox](https://phpsandbox.io/e/x/igbpk?layout=EditorPreview)
 
 ## Project Structure
 ```text
